@@ -1,6 +1,6 @@
 # Python Image Failures
 
-In questa repository sono contenuti dei codici che servono per simulare fallimenti che possono verificarsi su delle immagini.
+In questa repository sono contenuti dei codici che servono per simulare fallimenti che possono verificarsi in una fotocamera in fase di acquisizione/elaborazione.
 
 I codici sono stati trovati e modificati, in modo da essere ottimali per il lavoro che doveva essere svolto.
 
