@@ -5,7 +5,7 @@ In questa repository sono contenuti dei codici che servono per simulare fallimen
 I codici sono stati trovati e modificati, in modo da essere ottimali per il lavoro che doveva essere svolto.
 
 
-## Alcune cose su codice utilizzato
+## Alcune cose sul codice utilizzato
 
 Per la conversione da 'PIL.JpegImagePlugin.JpegImageFile' (o 'PIL.Image.Image') a 'numpy.ndarray' si può usare il comando:
 ```python
