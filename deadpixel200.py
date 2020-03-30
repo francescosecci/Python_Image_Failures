@@ -32,7 +32,7 @@ for y in range(0, 10):
 
 img1 = Image.fromarray(img1) # esempio conversione
 
-print(countpixel) #valore di controllo per i pixel gustati inseriti
+print(countpixel) #valore di controllo per i pixel inseriti
 
 plt.figure(num='Fallimento DEADPIXEL Configurazione 3')
 plt.subplot(121),plt.imshow(img),plt.title('Originale')
