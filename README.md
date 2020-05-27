@@ -74,9 +74,7 @@ I Success Rate dei fallimenti iniettati:
 
 ## Immagini esempio fallimenti
 
-![](https://github.com/francescosecci/Python_Image_Failures/blob/master/originale.jpg)
 
-.caption[
-**Fig. 1:** Frame CARLA senza iniezione di Fallimenti
-]
+<img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/originale.jpg" width="250">
+Frame CARLA senza iniezione di Fallimenti ![ScreenShot](https://github.com/francescosecci/Python_Image_Failures/blob/master/originale.jpg)
 
