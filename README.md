@@ -27,14 +27,14 @@ img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB) # BGR to RGB
 
 ## Risultati ottenuti con l'iniezione dei fallimenti in CARLA
 
-> I Success Rate della Golden Run:
+I Success Rate della Golden Run:
 
-| /\/\/\/\/\ | FullTown02 | StraightTown02 | TurnTown02 |
+| \/\\\/\\\/\\\/\\\/\\ | FullTown02 | StraightTown02 | TurnTown02 |
 | ------------- | ------------- | ------------- | ------------- |
 | GoldenRun | 90 | 100 | 100  |
 
 
-> I Success Rate dei fallimenti iniettati:
+I Success Rate dei fallimenti iniettati:
 
 | Failure's name | FullTown02 | StraightTown02 | TurnTown02 |
 | ------------- | ------------- | ------------- | ------------- |
@@ -71,6 +71,8 @@ img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB) # BGR to RGB
 | DEAPIX-ro | 36  | 100  | 70  |
 | Media Success Rate per Scenario (GoldenRun inclusa) | 51.94 % | 88.56 % | 73.81 % |
 
+
+## Immagini esempio fallimenti
 
 
 
