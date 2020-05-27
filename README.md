@@ -77,3 +77,8 @@ I Success Rate dei fallimenti iniettati:
 | <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/originale.jpg" width="200"> | <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/noiseredu.jpg" width="200"> |  <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/noiseredu1.jpg" width="200"> |  <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/blurredimage.jpg" width="200"> |
 |:--:|:--:|:--:|:--:|
 | *GoldenRun* | *NONOISE1* | *NONOISE2* | *BLUR* |
+|:--:|:--:|:--:|:--:|
+| <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/white.jpg" width="200"> | <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/brightness15.jpg" width="200"> |  <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/brightness25.jpg" width="200"> |  <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/black.jpg" width="200"> |
+|:--:|:--:|:--:|:--:|
+| *WHI* | *BRIGH1* | *BRIGH2* | *BLA* |
+
