@@ -89,5 +89,7 @@ I Success Rate dei fallimenti iniettati:
 | BAND | NODEMOS | DEAPIX1 | DEAPIX50 |
 | <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/dead200pixel.jpg" width="200"> | <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/dead1000pixel.jpg" width="200"> |  <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/deadpixel-1vertical-line.jpg" width="200"> |  <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/deadpixel-3lines-2H1V.jpg" width="200"> |
 | DEAPIX200 | DEAPIX1000 | DEAPIX-vcl | DEAPIX-3l |
+| <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/deadpixel-5lines-3H2V.jpg" width="200"> | <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/deadpixel-10lines-5H5V.jpg" width="200"> |  <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/deadpixel-carreggiata.jpg" width="200"> |  <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/deadpixel-carregg-obstacle.jpg" width="200"> |
+| DEAPIX-5l | DEAPIX-10l | DEAPIXl-r | DEAPIX-ro |
 
 
