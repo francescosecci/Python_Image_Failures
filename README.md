@@ -4,7 +4,7 @@ In questa repository sono contenuti dei codici che servono per simulare fallimen
 
 I codici sono stati trovati e modificati, in modo da essere ottimali per il lavoro che doveva essere svolto.
 
-
+<br><br><br><br>
 ## Alcune cose sul codice utilizzato
 
 Per la conversione da 'PIL.JpegImagePlugin.JpegImageFile' (o 'PIL.Image.Image') a 'numpy.ndarray' si può usare il comando:
@@ -24,7 +24,7 @@ utilizzato il comando:
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB) # BGR to RGB
 ```
 
-
+<br><br><br><br>
 ## Risultati ottenuti con l'iniezione dei fallimenti in CARLA
 
 I Success Rate della Golden Run:
@@ -81,4 +81,6 @@ I Success Rate dei fallimenti iniettati:
 | WHI | BRIGH1 | BRIGH2 | BLA |
 | <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/broken1-fail.jpg" width="200"> | <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/broken1-fail2.jpg" width="200"> |  <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/nobayerfilterimage.jpg" width="200"> |  <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/sharpnesscorr.jpg" width="200"> |
 | BRLE1 | BRLE2 | NBAYF | NOSHARP |
+| <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/chromabefail.jpg" width="200"> | <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/chromabefail2.jpg" width="200"> |  <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/icebrigfail.jpg" width="200"> |  <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/icebrigfail2.jpg" width="200"> |
+| NOCHROMAB-nb | NOCHROMAB-b | ICE1 | ICE2 |
 
