@@ -71,7 +71,7 @@ I Success Rate dei fallimenti iniettati:
 | DEAPIX-ro | 36  | 100  | 70  |
 | Media Success Rate per Scenario (GoldenRun inclusa) | 51.94 % | 88.56 % | 73.81 % |
 
-
+<br><br><br><br>
 ## Immagini esempio fallimenti
 
 | <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/originale.jpg" width="200"> | <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/noiseredu.jpg" width="200"> |  <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/noiseredu1.jpg" width="200"> |  <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/blurredimage.jpg" width="200"> |
