@@ -36,7 +36,7 @@ I Success Rate della Golden Run:
 
 I Success Rate dei fallimenti iniettati:
 
-| Failure's name | FullTown02 | StraightTown02 | TurnTown02 |
+| Nome Fallimento | FullTown02 | StraightTown02 | TurnTown02 |
 | ------------- | ------------- | ------------- | ------------- |
 | NONOISE1 | 76  | 100  | 98  |
 | NONOISE2 | 16  | 90  | 40  |
@@ -83,4 +83,8 @@ I Success Rate dei fallimenti iniettati:
 | BRLE1 | BRLE2 | NBAYF | NOSHARP |
 | <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/chromabefail.jpg" width="200"> | <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/chromabefail2.jpg" width="200"> |  <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/icebrigfail.jpg" width="200"> |  <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/icebrigfail2.jpg" width="200"> |
 | NOCHROMAB-nb | NOCHROMAB-b | ICE1 | ICE2 |
+| <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/dirtyglass.jpg" width="200"> | <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/dirtyglass2.jpg" width="200"> |  <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/rainglassfail.jpg" width="200"> |  <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/condens.jpg" width="200"> |
+| DIRTY1 | DIRTY2 | RAIN | COND |
+
+
 
