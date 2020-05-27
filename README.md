@@ -74,6 +74,6 @@ I Success Rate dei fallimenti iniettati:
 
 ## Immagini esempio fallimenti
 
-
+![ScreenShot](https://github.com/francescosecci/Python_Image_Failures/blob/master/originale.jpg)
 
 
