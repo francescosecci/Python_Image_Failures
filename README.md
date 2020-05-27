@@ -4,7 +4,7 @@ In questa repository sono contenuti dei codici che servono per simulare fallimen
 
 I codici sono stati trovati e modificati, in modo da essere ottimali per il lavoro che doveva essere svolto.
 
-<br><br><br><br>
+<br><br>
 ## Alcune cose sul codice utilizzato
 
 Per la conversione da 'PIL.JpegImagePlugin.JpegImageFile' (o 'PIL.Image.Image') a 'numpy.ndarray' si può usare il comando:
@@ -24,7 +24,7 @@ utilizzato il comando:
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB) # BGR to RGB
 ```
 
-<br><br><br><br>
+<br><br>
 ## Risultati ottenuti con l'iniezione dei fallimenti in CARLA
 
 I Success Rate della Golden Run:
@@ -71,7 +71,7 @@ I Success Rate dei fallimenti iniettati:
 | DEAPIX-ro | 36  | 100  | 70  |
 | Media Success Rate per Scenario (GoldenRun inclusa) | 51.94 % | 88.56 % | 73.81 % |
 
-<br><br><br><br>
+<br><br>
 ## Immagini esempio fallimenti
 
 | <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/originale.jpg" width="200"> | <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/noiseredu.jpg" width="200"> |  <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/noiseredu1.jpg" width="200"> |  <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/blurredimage.jpg" width="200"> |
@@ -85,6 +85,9 @@ I Success Rate dei fallimenti iniettati:
 | NOCHROMAB-nb | NOCHROMAB-b | ICE1 | ICE2 |
 | <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/dirtyglass.jpg" width="200"> | <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/dirtyglass2.jpg" width="200"> |  <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/rainglassfail.jpg" width="200"> |  <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/condens.jpg" width="200"> |
 | DIRTY1 | DIRTY2 | RAIN | COND |
-
+| <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/bandingfail.jpg" width="200"> | <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/nodemosfail.jpg" width="200"> |  <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/deadpixel1.jpg" width="200"> |  <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/dead50pixel.jpg" width="200"> |
+| BAND | NODEMOS | DEAPIX1 | DEAPIX50 |
+| <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/dead200pixel.jpg" width="200"> | <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/dead1000pixel.jpg" width="200"> |  <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/deadpixel-1vertical-line.jpg" width="200"> |  <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/deadpixel-3lines-2H1V.jpg" width="200"> |
+| DEAPIX200 | DEAPIX1000 | DEAPIX-vcl | DEAPIX-3l |
 
 
