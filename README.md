@@ -92,4 +92,10 @@ I Success Rate dei fallimenti iniettati:
 | <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/failure_example/deadpixel-5lines-3H2V.jpg" width="200"> | <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/failure_example/deadpixel-10lines-5H5V.jpg" width="200"> |  <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/failure_example/deadpixel-carreggiata.jpg" width="200"> |  <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/failure_example/deadpixel-carregg-obstacle.jpg" width="200"> |
 | DEAPIX-5l | DEAPIX-10l | DEAPIXl-r | DEAPIX-ro |
 
+<br><br>
+## Lavori sviluppati sull'argomento
+
+Link alla Tesi di Laurea Magistrale basata sull'argomento: Modi di Fallimento delle telecamere RGB ed effetti nelle applicazioni di guida autonoma (prossimamente)
+<br>
+Link al Paper sviluppato sull'argomento: [On failures of RGB cameras and their effects in autonomous driving applications](https://github.com/francescosecci/Python_Image_Failures/blob/master/Documenti/Paper.pdf)
 
