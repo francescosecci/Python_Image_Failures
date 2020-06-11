@@ -96,6 +96,6 @@ I Success Rate dei fallimenti iniettati:
 ## Lavori sviluppati sull'argomento
 
 Link alla Tesi di Laurea Magistrale basata sull'argomento: Modi di Fallimento delle telecamere RGB ed effetti nelle applicazioni di guida autonoma (prossimamente)
-<br>
+<br><br>
 Link al Paper sviluppato sull'argomento: [On failures of RGB cameras and their effects in autonomous driving applications](https://github.com/francescosecci/Python_Image_Failures/blob/master/Documenti/Paper.pdf)
 
