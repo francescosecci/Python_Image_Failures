@@ -1,42 +1,40 @@
 # Python Image Failures
 
-In questa repository sono contenuti dei codici che servono per simulare fallimenti che possono verificarsi in una fotocamera/videocamera in fase di acquisizione/elaborazione.
+This repository contains codes that are used to simulate failures that can occur in a camera during the acquisition/processing phase.
 
-I codici sono stati trovati e modificati, in modo da essere ottimali per il lavoro che doveva essere svolto.
+The codes were found and modified, so as to be optimal for the work that had to be done.
 
 <br><br>
-## Alcune cose sul codice utilizzato
+## Some things about the code used
 
-Per la conversione da 'PIL.JpegImagePlugin.JpegImageFile' (o 'PIL.Image.Image') a 'numpy.ndarray' si può usare il comando:
+For the conversion from 'PIL.JpegImagePlugin.JpegImageFile' (or 'PIL.Image.Image') to 'numpy.ndarray' you can use the command:
 ```python
-img1 = np.array(picture) # adesso img1 è un oggetto <class 'numpy.ndarray'>
+img1 = np.array(picture) # now img1 is a <class 'numpy.ndarray'> object
 ```
 
-Per la conversione opposta, ovvero da 'numpy.ndarray' a 'PIL.Image.Image' si può usare il comando: 
+For the opposite conversion (from 'numpy.ndarray' to 'PIL.Image.Image') you can use the command:
 ```python
-img1 = Image.fromarray(blur, 'RGB') # adesso img1 è un oggetto <class 'PIL.Image.Image'>
+img1 = Image.fromarray(blur, 'RGB') # now img1 is a <class 'PIL.Image.Image'> object
 ```
 
-Se l'oggetto 'ndarray' dell'immagine letta da OpenCV col metodo cv2.imread() viene convertito in a un oggetto 'PIL.Image' 
-e salvato, l'immagine risulterà con colori sbagliati (canali R e B invertiti), dunque, nei codici caricati, si è spesso 
-utilizzato il comando:
+If the image is opened using the cv2.imread() method (OpenCV) and converted into a 'PIL.Image' object, saving it, it will have wrong colors: the R and B channels will be inverted, therefore, in the codes in the repository, the command below has often been used:
 ```python
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB) # BGR to RGB
 ```
 
 <br><br>
-## Risultati ottenuti con l'iniezione dei fallimenti in CARLA
+## Results obtained with the injection of failures in CARLA simulator
 
-I Success Rate della Golden Run:
+Success Rate of Golden Run:
 
 | \/\\\/\\\/\\\/\\\/\\ | FullTown02 | StraightTown02 | TurnTown02 |
 | ------------- | ------------- | ------------- | ------------- |
 | GoldenRun | 90 | 100 | 100  |
 
 
-I Success Rate dei fallimenti iniettati:
+Success rates of injected failures:
 
-| Nome Fallimento | FullTown02 | StraightTown02 | TurnTown02 |
+| Failure name | FullTown02 | StraightTown02 | TurnTown02 |
 | ------------- | ------------- | ------------- | ------------- |
 | NONOISE1 | 76  | 100  | 98  |
 | NONOISE2 | 16  | 90  | 40  |
@@ -69,10 +67,10 @@ I Success Rate dei fallimenti iniettati:
 | DEAPIX-10l | 70  | 94  | 98  |
 | DEAPIXl-r | 40  | 100  | 68  |
 | DEAPIX-ro | 36  | 100  | 70  |
-| Media Success Rate per Scenario (GoldenRun inclusa) | 51.94 % | 88.56 % | 73.81 % |
+| Average Success Rate per Scenario (GoldenRun included) | 51.94 % | 88.56 % | 73.81 % |
 
 <br><br>
-## Immagini esempio fallimenti
+## Examples of failures injected
 
 | <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/failure_example/originale.jpg" width="200"> | <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/failure_example/noiseredu.jpg" width="200"> |  <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/failure_example/noiseredu1.jpg" width="200"> |  <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/failure_example/blurredimage.jpg" width="200"> |
 |:--:|:--:|:--:|:--:|
@@ -93,9 +91,9 @@ I Success Rate dei fallimenti iniettati:
 | DEAPIX-5l | DEAPIX-10l | DEAPIXl-r | DEAPIX-ro |
 
 <br><br>
-## Lavori sviluppati sull'argomento
+## Works developed on the topic
 
-Link alla Tesi di Laurea Magistrale basata sull'argomento: [Modi di Fallimento delle telecamere RGB ed effetti nelle applicazioni di guida autonoma](https://github.com/francescosecci/Python_Image_Failures/blob/master/Documenti/thesis.pdf)
+Link to the MSc thesis based on the topic: [Modi di Fallimento delle telecamere RGB ed effetti nelle applicazioni di guida autonoma](https://github.com/francescosecci/Python_Image_Failures/blob/master/Documenti/thesis.pdf)
 <br><br>
-Link al Paper sviluppato sull'argomento: [On failures of RGB cameras and their effects in autonomous driving applications](https://github.com/francescosecci/Python_Image_Failures/blob/master/Documenti/Paper.pdf)
+Link to the Paper developed on the topic: [On failures of RGB cameras and their effects in autonomous driving applications](https://github.com/francescosecci/Python_Image_Failures/blob/master/Documenti/Paper.pdf)
 
