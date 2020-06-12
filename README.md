@@ -28,6 +28,7 @@ img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB) # BGR to RGB
 | <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/failure_example/originale.jpg" width="350"> | <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/failure_example/noiseredu.jpg" width="350"> |  <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/failure_example/noiseredu1.jpg" width="350"> |
 |:--:|:--:|:--:|
 | W1-clear | W4-cloudywet | W13-hardrain |
+da aggiornare immagini
 
 <br><br>
 ## Results obtained with the injection of failures in CARLA simulator
