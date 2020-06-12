@@ -91,9 +91,9 @@ Success rates of injected failures:
 | DEAPIX-5l | DEAPIX-10l | DEAPIXl-r | DEAPIX-ro |
 
 <br><br>
-## Works developed on the topic
+### A detailed description of this work can be found in:
 
-Link to the MSc thesis based on the topic: [Modi di Fallimento delle telecamere RGB ed effetti nelle applicazioni di guida autonoma](https://github.com/francescosecci/Python_Image_Failures/blob/master/Documenti/thesis.pdf)
+Francesco Secci, "ON FAILURES OF RGB CAMERAS AND THEIR EFFECTS IN AUTONOMOUS DRIVING APPLICATIONS", Master Thesis at the University of Florence, Italy (in Italian only), July 2020. [thesis](https://github.com/francescosecci/Python_Image_Failures/blob/master/Documenti/thesis.pdf)
 <br><br>
-Link to the Paper developed on the topic: [On failures of RGB cameras and their effects in autonomous driving applications](https://github.com/francescosecci/Python_Image_Failures/blob/master/Documenti/Paper.pdf)
+Francesco Secci, Andrea Ceccarelli, "On failures of RGB cameras and their effects in autonomous driving applications", submitted. [paper](https://github.com/francescosecci/Python_Image_Failures/blob/master/Documenti/Paper.pdf)
 
