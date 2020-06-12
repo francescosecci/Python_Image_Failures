@@ -23,7 +23,7 @@ img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB) # BGR to RGB
 ```
 
 <br><br>
-## Types of weather
+## Types of weather used in simulations
 
 | <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/failure_example/originale.jpg" width="350"> | <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/failure_example/noiseredu.jpg" width="350"> |  <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/failure_example/noiseredu1.jpg" width="350"> |
 |:--:|:--:|:--:|
