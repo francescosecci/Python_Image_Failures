@@ -5,7 +5,6 @@ from matplotlib import pyplot as plt
 img = cv2.imread('sim.jpg')
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
-
 #Speckle Noise
 gauss = np.random.normal(0,1,img.size)
 gauss = gauss.reshape(img.shape[0],img.shape[1],img.shape[2]).astype('uint8')
