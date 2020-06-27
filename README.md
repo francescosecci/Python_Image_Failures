@@ -23,13 +23,25 @@ img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB) # BGR to RGB
 ```
 
 <br><br>
-## Types of weather used in simulations
+## Types of weather available in the simulator:
 
-| <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/failure_example/originale.jpg" width="350"> | <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/failure_example/noiseredu.jpg" width="350"> |  <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/failure_example/noiseredu1.jpg" width="350"> |
-|:--:|:--:|:--:|
-| W1-clear | W4-cloudywet | W13-hardrain |
-<br>
-da aggiornare immagini
+- [] 0 - Default
+- [x] 1 - ClearNoon
+- [] 2 - CloudyNoon
+- [] 3 - WetNoon
+- [x] 4 - WetCloudyNoon
+- [] 5 - MidRainyNoon
+- [] 6 - HardRainNoon
+- [] 7 - SoftRainNoon
+- [] 8 - ClearSunset
+- [] 9 - CloudySunset
+- [] 10 - WetSunset
+- [] 11 - WetCloudySunset
+- [] 12 - MidRainSunset
+- [x] 13 - HardRainSunset
+- [] 14 - SoftRainSunset
+
+The marked weather are those used in the work done.
 
 <br><br>
 ## Results obtained with the injection of failures in CARLA simulator
