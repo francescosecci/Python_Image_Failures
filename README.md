@@ -109,7 +109,7 @@ Success rates of injected failures:
 | <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/failure_example/dead200pixel.jpg" width="200"> | <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/failure_example/dead1000pixel.jpg" width="200"> |  <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/failure_example/deadpixel-1vertical-line.jpg" width="200"> |  <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/failure_example/deadpixel-3lines-2H1V.jpg" width="200"> |
 | DEAPIX200 | DEAPIX1000 | DEAPIX-vcl | DEAPIX-3l |
 | <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/failure_example/deadpixel-5lines-3H2V.jpg" width="200"> | <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/failure_example/deadpixel-10lines-5H5V.jpg" width="200"> |  <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/failure_example/deadpixel-carreggiata.jpg" width="200"> |  <img src="https://github.com/francescosecci/Python_Image_Failures/blob/master/failure_example/deadpixel-carregg-obstacle.jpg" width="200"> |
-| DEAPIX-5l | DEAPIX-10l | DEAPIXl-r | DEAPIX-ro |
+| DEAPIX-5l | DEAPIX-10l | DEAPIX-r | DEAPIX-ro |
 
 <br><br>
 ### A detailed description of this work can be found in:
