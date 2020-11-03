@@ -1,9 +1,10 @@
+#add blur to the image sim1.jpg
 import cv2
 from matplotlib import pyplot as plt
 
 img = cv2.imread('sim1.jpg')
 
-blur = cv2.blur(img,(5,5)) #cambiare valori per aumentare o diminuire sfocatura
+blur = cv2.blur(img,(5,5)) #change values to increment/decrement blur. 0 is "no blur"
 
 #blur e img --> <class 'numpy.ndarray'>
 
