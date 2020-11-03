@@ -1,3 +1,7 @@
+#see overlay_images.py for an alternative method
+#Overlay is our approach to banding, rain, condensation, broken lens, ice, dirt.
+#The github contains some images that you can overlay to sim1.jpg, but many others obviously can be used.
+
 from matplotlib import pyplot as plt
 from PIL import Image
 
