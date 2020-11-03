@@ -7,13 +7,13 @@ The codes were found and modified, so as to be optimal for the work that had to 
 ### If you are using our work, please cite:
 Francesco Secci, Andrea Ceccarelli. "On failures of RGB cameras and their effects in autonomous driving applications." In: The 31st International Symposium on Software Reliability Engineering (ISSRE) 2020.
 
-## How to interpret this code
+## How is this repo organized
 There are various python files, and some images.
 In general: 
 - sim1.jpg is the target image, on which failures are applied
-- each python file allows injecting a different failure on sim1.jpg. The name of the file itself indicates the failures:
-   - some failures (banding, ice, condensation, dirt, rain, broken lens) requires a second image, that is overlapped on sim1.jpg. In these cases, some possible images are available in the repository (e.g., banding.png, ice1.png). Obviously, many others can be used.
-   - other failures may have configuration parameters, you can play with them. It is easy to spot them just looking at the code and the comments. 
+- each python file allows injecting a different failure on sim1.jpg. Usually, the name of the file itself indicates the failures:
+   - some failures (banding, ice, condensation, dirt, rain, broken lens) requires a second image, that is overlapped on sim1.jpg. In these cases, some possible images are available in the repository (e.g., banding.png, ice1.png). Obviously, many others can be used. The python file to consider in this case is overlay_images.py.
+   - other failures may have configuration parameters, you can play with them. It is easy to spot the required configuration just looking at the code and the comments. 
 
 ## Few things about the code used
 
