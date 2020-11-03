@@ -1,3 +1,4 @@
+#this just creates a black image
 from PIL import Image
 from matplotlib import pyplot as plt
 
