@@ -4,7 +4,7 @@ This repository contains codes that are used to simulate failures that can occur
 
 The codes were found and modified, so as to be optimal for the work that had to be done.
 
-# If you are using our work, please cite:
+### If you are using our work, please cite:
 Francesco Secci, Andrea Ceccarelli. "On failures of RGB cameras and their effects in autonomous driving applications." In: The 31st International Symposium on Software Reliability Engineering (ISSRE) 2020.
 
 
