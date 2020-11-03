@@ -1,4 +1,4 @@
-#see overlay_images.py for an alternative method
+#see overlay_images.py for an alternative (better) method
 #Overlay is our approach to banding, rain, condensation, broken lens, ice, dirt.
 #The github contains some images that you can overlay to sim1.jpg, but many others obviously can be used.
 
@@ -6,11 +6,11 @@ from matplotlib import pyplot as plt
 from PIL import Image
 
 
-img = Image.open("sim.jpg")
+img = Image.open("sim1.jpg")
 
-img2 = Image.open("broken1.png").convert(img.mode) # immagini da sovrapporre all'Originale
-# attenzione a che tipo di sfondo hanno, in quanto potrebbero o dare errore o scurire
-# talmente tanto l'immagine che non potrebbero essere considerati come plausibili
+img2 = Image.open("broken1.png").convert(img.mode) # broken1.png is overlayed to sim1.jpg
+# pay attention that it may get the image darker
+# see overlay_images.py for alternatives
 
 img2 = img2.resize(img.size)
 
