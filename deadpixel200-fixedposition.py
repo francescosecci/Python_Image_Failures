@@ -1,3 +1,4 @@
+#set 200 dead pixel at fixed positions (organized in a grid)
 import numpy as np
 import cv2
 from matplotlib import pyplot as plt
