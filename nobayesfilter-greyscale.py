@@ -1,3 +1,4 @@
+#represent the no bayes filter (greyscale) failure
 import numpy as np
 import cv2
 from PIL import Image
@@ -10,7 +11,7 @@ def rgb2gray(rgb):
 
 
 #2 approaches for transforming in greyscale
-#see greyscale.py and this file greyscale2.py
+#see also  nobayesfilter-greyscale2.py
 #depending on your image detection algorithm, one or the other may be preferable
 img = mpimg.imread('sim1.jpg')
 gray = rgb2gray(img)
