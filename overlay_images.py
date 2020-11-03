@@ -1,5 +1,7 @@
 #alternative metod to "sovrapposizione.py"
 #allow to overlay images without losing brightness, if foreground image is transparent
+#This overlay is our approach to banding, rain, condensation, broken lens, ice, dirt.
+#The github contains some images that you can overlay to sim1.jpg, but others obviously exist.
 
 from matplotlib import pyplot as plt
 from PIL import Image
@@ -8,8 +10,8 @@ import cv2
 
 
 
-img = Image.open("sim.jpg")
-img3 = Image.open("sim.jpg")
+img = Image.open("sim1.jpg")
+img3 = Image.open("sim1.jpg")
 # attenzione a che tipo di sfondo hanno, in quanto potrebbero o dare errore o scurire
 # talmente tanto l'immagine che non potrebbero essere considerati come plausibili
 img2 = Image.open("./ice/ice3.png").convert("RGBA")
