@@ -1,9 +1,9 @@
-#this just creates a black image
+#this just converts the input image sim1.jpg to an entirely  black image
 from PIL import Image
 from matplotlib import pyplot as plt
 
-picture1 = Image.open("sim.jpg")
-picture = Image.open("sim.jpg")
+picture1 = Image.open("sim1.jpg")
+picture = Image.open("sim1.jpg")
 
 pixels = picture.load()
 width, height = picture.size
