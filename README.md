@@ -7,7 +7,6 @@ The codes were found and modified, so as to be optimal for the work that had to 
 ### If you are using our work, please cite:
 Francesco Secci, Andrea Ceccarelli. "On failures of RGB cameras and their effects in autonomous driving applications." In: The 31st International Symposium on Software Reliability Engineering (ISSRE) 2020.
 
-
 <br><br>
 ## Some things about the code used
 
