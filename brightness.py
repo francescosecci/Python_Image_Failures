@@ -13,10 +13,11 @@ img = Image.open("sim1.jpg")
 
 enhancer = ImageEnhance.Brightness(img)
 
+#An enhancement factor of 0.0 gives a black image. A factor of 1.0 gives the original image.
 factor = 1
 img1 = enhancer.enhance(factor)
 
-
+#An enhancement factor of 0.0 gives a black image. A factor of 1.0 gives the original image.
 factor = 3.5
 img2 = enhancer.enhance(factor)
 
