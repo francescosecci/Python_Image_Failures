@@ -1,11 +1,12 @@
+#adds the "no demosaicing failure" on input image sim1.jpg 
 from PIL import Image
 from numpy import*
 import cv2
 from matplotlib import pyplot as plt
 
 # Open image and put it in a numpy array
-srcArray = cv2.imread('sim.jpg')
-srcArray1 = Image.open("sim.jpg")
+srcArray = cv2.imread('sim1.jpg')
+srcArray1 = Image.open("sim1.jpg")
 
 w, h, _ = srcArray.shape
 # Create target array, twice the size of the original image
@@ -38,8 +39,8 @@ imgOut = Image.fromarray(resArray, "RGB")
 # Save the image
 # imgOut.save("nodemos.png")
 
-plt.figure(num='Fallimento DEMOSAICING')
-plt.subplot(121),plt.imshow(srcArray1),plt.title('Originale')
+plt.figure(num='Failure DEMOSAICING')
+plt.subplot(121),plt.imshow(srcArray1),plt.title('Original')
 plt.xticks([]), plt.yticks([])
 plt.subplot(122),plt.imshow(imgOut),plt.title('No Demosaicing')
 plt.xticks([]), plt.yticks([])
