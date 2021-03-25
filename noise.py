@@ -2,9 +2,10 @@ import numpy as np
 import cv2
 from matplotlib import pyplot as plt
 
-img = cv2.imread('sim.jpg')
-img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+image = cv2.imread('sim.jpg')
+#img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB) # I think this can be removed
 
+img=np.array(im)
 #Speckle Noise
 #second value (the "1") is the Standard deviation (spread or "width") of the distribution 
 gauss = np.random.normal(0,1,img.size)
