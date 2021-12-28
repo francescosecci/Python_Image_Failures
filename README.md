@@ -126,5 +126,8 @@ Success rates of injected failures:
 
 Francesco Secci, "On failures of RGB cameras and their effects in autonomous driving applications", Master Thesis at the University of Florence, Italy (in Italian only), July 2020. ([thesis](https://github.com/francescosecci/Python_Image_Failures/blob/master/Documenti/thesis.pdf))
 <br><br>
-Francesco Secci, Andrea Ceccarelli, "On failures of RGB cameras and their effects in autonomous driving applications", in press -- to appear at the 31st International Symposium on Software Reliability Engineering (ISSRE 2020). ([paper](https://github.com/francescosecci/Python_Image_Failures/blob/master/Documenti/Paper.pdf))
+Francesco Secci, Andrea Ceccarelli, "On failures of RGB cameras and their effects in autonomous driving applications", 31st International Symposium on Software Reliability Engineering (ISSRE 2020). ([paper](https://github.com/francescosecci/Python_Image_Failures/blob/master/Documenti/Paper.pdf))
+<br><br>
+An improved version of the paper, called" RGB cameras failures and their effects in autonomous driving applications", is available at: https://arxiv.org/abs/2008.05938
+
 
