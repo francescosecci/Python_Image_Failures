@@ -4,8 +4,12 @@ This repository contains codes that are used to simulate failures that can occur
 
 The codes were found and modified, so as to be optimal for the work that had to be done.
 
-### If you are using our work, please cite:
+### How to cite our work:
+
 Francesco Secci, Andrea Ceccarelli. "On failures of RGB cameras and their effects in autonomous driving applications." In: The 31st International Symposium on Software Reliability Engineering (ISSRE) 2020.
+
+
+Andrea Ceccarelli, Francesco Secci: "RGB cameras failures and their effects in autonomous driving applications", In press at IEEE Transactions on Dependable and Secure Computing.
 
 ## How is this repo organized
 There are various python files, and some images.
@@ -128,6 +132,8 @@ Francesco Secci, "On failures of RGB cameras and their effects in autonomous dri
 <br><br>
 Francesco Secci, Andrea Ceccarelli, "On failures of RGB cameras and their effects in autonomous driving applications", 31st International Symposium on Software Reliability Engineering (ISSRE 2020). ([paper](https://github.com/francescosecci/Python_Image_Failures/blob/master/Documenti/Paper.pdf))
 <br><br>
-An improved version of the paper, called" RGB cameras failures and their effects in autonomous driving applications", is available at: https://arxiv.org/abs/2008.05938
+
+Andrea Ceccarelli, Francesco Secci: "RGB cameras failures and their effects in autonomous driving applications", In press at IEEE Transactions on Dependable and Secure Computing.
+
 
 
