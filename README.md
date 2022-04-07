@@ -133,7 +133,7 @@ Francesco Secci, "On failures of RGB cameras and their effects in autonomous dri
 Francesco Secci, Andrea Ceccarelli, "On failures of RGB cameras and their effects in autonomous driving applications", 31st International Symposium on Software Reliability Engineering (ISSRE 2020). ([paper](https://github.com/francescosecci/Python_Image_Failures/blob/master/Documenti/Paper.pdf))
 <br><br>
 
-Andrea Ceccarelli, Francesco Secci: "RGB cameras failures and their effects in autonomous driving applications", In press at IEEE Transactions on Dependable and Secure Computing.
+Andrea Ceccarelli, Francesco Secci: "RGB cameras failures and their effects in autonomous driving applications", In press at IEEE Transactions on Dependable and Secure Computing. https://arxiv.org/abs/2008.05938
 
 
 
